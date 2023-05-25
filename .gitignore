@@ -1,7 +1,8 @@
 # compiled output
 /dist
 /node_modules
-node_modules/
+node_modules/git rm -r --cached node_modules
+
 # Logs
 logs
 *.log
