@@ -1,8 +1,8 @@
 # compiled output
 /dist
 /node_modules
-node_modules/git rm -r --cached node_modules
-
+node_modules/
+next/node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node
 # Logs
 logs
 *.log
