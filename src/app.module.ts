@@ -9,7 +9,9 @@ import { University } from './universities/university.entity';
 import { Subject } from './users/subject.entity'; // Add this import
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-
+import { AcademicProgram } from './universities/academic-program.entity';
+import { StudentExperience } from './universities/student-experience.entity';
+import { Score } from './users/score.entity'
 @Module({
   imports: [
     UsersModule,
@@ -23,7 +25,7 @@ import { AppService } from './app.service';
       username: 'root',
       password: 'Dioda123',
       database: 'project1',
-      entities: [User, University, Subject],
+      entities: [User, University, Subject, Score, AcademicProgram, StudentExperience],
       synchronize: true,
     }),
   ],

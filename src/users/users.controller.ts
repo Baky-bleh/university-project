@@ -4,21 +4,23 @@ import { UpdateUserDto } from './dtos/update-user.dto';
 import { UsersService } from './users.service';
 import { ParseIntPipe } from '@nestjs/common';
 import { AuthGuard } from '@nestjs/passport';
+import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
-  @UseGuards(AuthGuard('jwt'))
+  // @UseGuards(AuthGuard('jwt'))
   @Post()
   async create(@Body() createUserDto: CreateUserDto) {
     return await this.usersService.create(createUserDto);
   }
-
-  @Get()
-  async findAll() {
-    return await this.usersService.findAll();
-  }
+  @UseGuards(JwtAuthGuard)
+  @Get('allUsers')
+    async allUsers() {
+        return await this.usersService.findAll();
+    }
+  
 
   @Get(':id')
   async findOne(@Param('id', ParseIntPipe) id: number) {
