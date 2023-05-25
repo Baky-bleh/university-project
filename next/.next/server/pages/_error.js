@@ -34,52 +34,52 @@ eval("\n\"use client\";\nObject.defineProperty(exports, \"__esModule\", ({\n    
 /***/ }),
 
 /***/ "./amp-context":
-/*!******************************************************!*\
-  !*** external "next/dist/shared/lib/amp-context.js" ***!
-  \******************************************************/
+/*!***************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/amp-context.js" ***!
+  \***************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/amp-context.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/amp-context.js");
 
 /***/ }),
 
 /***/ "./amp-mode":
-/*!***************************************************!*\
-  !*** external "next/dist/shared/lib/amp-mode.js" ***!
-  \***************************************************/
+/*!************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/amp-mode.js" ***!
+  \************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/amp-mode.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/amp-mode.js");
 
 /***/ }),
 
 /***/ "./head-manager-context":
-/*!***************************************************************!*\
-  !*** external "next/dist/shared/lib/head-manager-context.js" ***!
-  \***************************************************************/
+/*!************************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/head-manager-context.js" ***!
+  \************************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/head-manager-context.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/head-manager-context.js");
 
 /***/ }),
 
 /***/ "./side-effect":
-/*!******************************************************!*\
-  !*** external "next/dist/shared/lib/side-effect.js" ***!
-  \******************************************************/
+/*!***************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/side-effect.js" ***!
+  \***************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/side-effect.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/side-effect.js");
 
 /***/ }),
 
 /***/ "./utils/warn-once":
-/*!**********************************************************!*\
-  !*** external "next/dist/shared/lib/utils/warn-once.js" ***!
-  \**********************************************************/
+/*!*******************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/utils/warn-once.js" ***!
+  \*******************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/utils/warn-once.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 

@@ -44,62 +44,62 @@ eval("/*\nMIT License\n\nCopyright (c) Sindre Sorhus <sindresorhus@gmail.com> (s
 /***/ }),
 
 /***/ "../server/get-page-files":
-/*!*****************************************************!*\
-  !*** external "next/dist/server/get-page-files.js" ***!
-  \*****************************************************/
+/*!**************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/server/get-page-files.js" ***!
+  \**************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/get-page-files.js");
+module.exports = require("../next/node_modules/next/dist/server/get-page-files.js");
 
 /***/ }),
 
 /***/ "../server/htmlescape":
-/*!*************************************************!*\
-  !*** external "next/dist/server/htmlescape.js" ***!
-  \*************************************************/
+/*!**********************************************************************!*\
+  !*** external "../next/node_modules/next/dist/server/htmlescape.js" ***!
+  \**********************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/htmlescape.js");
+module.exports = require("../next/node_modules/next/dist/server/htmlescape.js");
 
 /***/ }),
 
 /***/ "../server/utils":
-/*!********************************************!*\
-  !*** external "next/dist/server/utils.js" ***!
-  \********************************************/
+/*!*****************************************************************!*\
+  !*** external "../next/node_modules/next/dist/server/utils.js" ***!
+  \*****************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/server/utils.js");
+module.exports = require("../next/node_modules/next/dist/server/utils.js");
 
 /***/ }),
 
 /***/ "../shared/lib/constants":
-/*!****************************************************!*\
-  !*** external "next/dist/shared/lib/constants.js" ***!
-  \****************************************************/
+/*!*************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/constants.js" ***!
+  \*************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/constants.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/constants.js");
 
 /***/ }),
 
 /***/ "../shared/lib/html-context":
-/*!*******************************************************!*\
-  !*** external "next/dist/shared/lib/html-context.js" ***!
-  \*******************************************************/
+/*!****************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/html-context.js" ***!
+  \****************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/html-context.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/html-context.js");
 
 /***/ }),
 
 /***/ "../shared/lib/is-plain-object":
-/*!**********************************************************!*\
-  !*** external "next/dist/shared/lib/is-plain-object.js" ***!
-  \**********************************************************/
+/*!*******************************************************************************!*\
+  !*** external "../next/node_modules/next/dist/shared/lib/is-plain-object.js" ***!
+  \*******************************************************************************/
 /***/ ((module) => {
 
-module.exports = require("next/dist/shared/lib/is-plain-object.js");
+module.exports = require("../next/node_modules/next/dist/shared/lib/is-plain-object.js");
 
 /***/ }),
 
